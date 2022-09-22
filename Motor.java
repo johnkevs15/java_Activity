@@ -1,6 +1,6 @@
-public class Motor extends Vehicle{
-    public void sound(){
-        super.sound();
-        System.out.println("Vroom vroom");
-      }
+public interface Motor {
+  
+    public void sound();
+    public void model();
+    public void price();
 }

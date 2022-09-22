@@ -4,7 +4,8 @@ public class Main{
         Vehicle n = new Vehicle();
         n.setBrand("Honda");
         System.out.println(n.getBrand());
-        Vehicle motor=new Motor();
-        motor.sound();
+        n.model();
+        n.price();
+        n.sound();
     }
    }
